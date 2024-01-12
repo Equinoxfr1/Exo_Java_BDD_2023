@@ -81,12 +81,12 @@
         <% } %>
     </br>
     <% } %>
-</p><p>
-<% for (int i = cpt; i <= 1; i--) { %>
-        <% for (int j = 1; j <= cpt-i; j++) { %>
+</p>
+<p><% for (int ii = cpt; ii <= 1; ii--) { %>
+        <% for (int jj = 1; jj <= cpt-ii; jj++) { %>
            <%="\u00A0\u00A0" %>
         <% } %>
-        <% for (int k = 1; k <= i; k++) { %>
+        <% for (int kk = 1; kk <= i; kk++) { %>
            <%="*" %>
         <% } %>
     </br>
