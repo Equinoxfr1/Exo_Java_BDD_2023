@@ -96,11 +96,11 @@
 <h2>Exercice 7 : La table de multiplication</h2>
 <p>
 <% for (int i = 1 ; i <= cpt ; i++){ %>
-    <% = cpt %>
+    <% = @cpt %>
     <% = "x" %>
-    <% = i %>
+    <% = &i %>
     <% = "=" %>
-    <% = cpt*i %>
+    <% = @cpt*i %>
 </p>
 
 <% } %>
