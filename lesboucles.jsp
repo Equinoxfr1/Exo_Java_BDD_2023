@@ -26,16 +26,16 @@
     </br>
     <% } %>
 </p>
-<p> "<% String valeur = request.getParameter("valeur"); %>
-<% if (valeur != null && !valeur.isEmpty()) { %>
-<%int cpt = Integer.parseInt(valeur); %>
+<p> String valeur = request.getParameter("valeur"); 
+if (valeur != null && !valeur.isEmpty()) { 
+int cpt = Integer.parseInt(valeur); 
     <p>
-    <% for (int i = 1; i <= cpt; i++) { %>
-        <% for (int j = 1; j <= cpt; j++) { %>
-           <%= "*" %>
-        <% } %>
+    for (int i = 1; i <= cpt; i++) {
+        for (int j = 1; j <= cpt; j++) {
+           = "*" 
+         } 
     </br>
-    <% } %>"
+     } 
 </p>
 
 <h2>Exercice 2 : Triangle rectangle gauche</h2>
