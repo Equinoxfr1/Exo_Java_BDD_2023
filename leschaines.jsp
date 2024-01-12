@@ -100,6 +100,21 @@ xueivulp ares revih'l</p>
 <h2>Exercice 6 : Consonnes et voyelles</h2>
 <p>Ecrire le programme afin de compter les consonnes et les voyelles dans votre texte</p>
 
+<% int c = 0; %>
+<% int v = 0; %>
+<% for (int i = 0 ; i < longueurChaine ; i++) { %>
+    <% if (chaine.charAt(i) == 'a' || chaine.charAt(i) == 'e' || chaine.charAt(i) == 'i' || chaine.charAt(i) == 'o' || chaine.charAt(i) == 'u' || chaine.charAt(i) == 'y') { %>
+        <% v++; %>
+    <% } else { %>
+        <% c++; %>
+    <% } %>
+<% } %>
+<%="Nombre de consonnes :" %>
+<%=c %>
+</br>
+<%="Nombre de voyelles :" %>
+<%=v %>
+
 <% } %>
 <p><a href="index.html">Retour au sommaire</a></p>
 </body>
