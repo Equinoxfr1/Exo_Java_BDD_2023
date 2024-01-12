@@ -57,6 +57,7 @@ r</p>
 <p>Mon truc :</p>
 <% for (int i = 0 ; i < longueurChaine ; i++) { %>
     <%=chaine.charAt(i) %>
+    </br>
 <% } %>
 
 <h2>Exercice 3 : Retour à la ligne</h2>
