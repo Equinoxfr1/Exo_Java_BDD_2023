@@ -17,11 +17,16 @@ C = 15</br>
 Oui C est compris entre A et B</p>
 
 <p> Mon truc : </p>
+
+<form action="#" method="post">
+
 <p>Saisir la valeur 1 : <input type="text" id="inputValeur" name="val1">
 <p>Saisir la valeur 2 : <input type="text" id="inputValeur" name="val2">
 <p>Saisir la valeur 3 : <input type="text" id="inputValeur" name="val3">
 
 <p><input type="submit" value="AfficherEx1">
+
+</form>
 
 <% String val1 = request.getParameter("val1"); %>
 <% String val2 = request.getParameter("val2"); %>
