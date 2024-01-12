@@ -37,7 +37,7 @@ Ecrire un programme afin de faire la somme de toutes les valeurs saisie par l'ut
 
 <% int somme = 0; %>
 <% for (int i = 0 ; i < tableauDeChiffres.length ; i++) { %>
-    <% somme = somme + Integer.parseInt(tableauDeChiffres[i]) %>
+    <% somme = somme + Integer.parseInt(tableauDeChiffres[i]) ; %>
 <% } %>
 <%=somme %>
 
