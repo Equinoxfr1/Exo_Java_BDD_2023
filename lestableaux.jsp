@@ -79,6 +79,16 @@ Ecrire un programme afin de faire la somme de toutes les valeurs saisie par l'ut
 <p>Trouvez la valeur la plus proche de 0 (chiffres positifs ou négatifs)</p>
 <p>En cas d'égalité entre un chiffre positif et négatif, affichez le chiffre positif</p>
 
+<% int min3 = Integer.parseInt(tableauDeChiffres[0]); %>
+<% for (int i = 0 ; i < tableauDeChiffres.length ; i++) { %>
+    <% if ((min3*min3) > (Integer.parseInt(tableauDeChiffres[i])*Integer.parseInt(tableauDeChiffres[i]))) { %>
+        <% min3 = Integer.parseInt(tableauDeChiffres[i]) ; %>
+    <% } %>
+    <% } else if(min3 == Integer.parseInt(tableauDeChiffres[i]) && Integer.parseInt(tableauDeChiffres[i]) >= 0) { %>
+        <% min3 = Integer.parseInt(tableauDeChiffres[i]) ; %>
+    <% } %>
+<% } %>
+<%=min3 %>
 
 <% } %>
 <p><a href="index.html">Retour au sommaire</a></p>
