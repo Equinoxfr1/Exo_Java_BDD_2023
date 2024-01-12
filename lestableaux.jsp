@@ -83,7 +83,6 @@ Ecrire un programme afin de faire la somme de toutes les valeurs saisie par l'ut
 <% for (int i = 0 ; i < tableauDeChiffres.length ; i++) { %>
     <% if ((min3*min3) > (Integer.parseInt(tableauDeChiffres[i])*Integer.parseInt(tableauDeChiffres[i]))) { %>
         <% min3 = Integer.parseInt(tableauDeChiffres[i]) ; %>
-    <% } %>
     <% } else if(min3 == Integer.parseInt(tableauDeChiffres[i]) && Integer.parseInt(tableauDeChiffres[i]) >= 0) { %>
         <% min3 = Integer.parseInt(tableauDeChiffres[i]) ; %>
     <% } %>
