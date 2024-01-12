@@ -12,12 +12,12 @@
 </form>
 
 
-
-<h2>Exercice 1 : Le carré d'étoiles</h2>
-<p>Ecrire le code afin de produire un carré
 <% String valeur = request.getParameter("valeur"); %>
 <% if (valeur != null && !valeur.isEmpty()) { %>
 <%int cpt = Integer.parseInt(valeur); %>
+
+<h2>Exercice 1 : Le carré d'étoiles</h2>
+<p>Ecrire le code afin de produire un carré
     <p>
     <% for (int i = 1; i <= cpt; i++) { %>
         <% for (int j = 1; j <= cpt; j++) { %>
@@ -29,11 +29,9 @@
 <p></p>
 
 <h2>Exercice 2 : Triangle rectangle gauche</h2>
-<p><% String valeur = request.getParameter("valeur"); %>
-<% if (valeur != null && !valeur.isEmpty()) { %>
-<%int cpt2 = Integer.parseInt(valeur); %>
+<p>
     <p>
-    <% for (int i = 1; i <= cpt2; i++) { %>
+    <% for (int i = 1; i <= cpt; i++) { %>
         <% for (int j = 1; j <= i; j++) { %>
            <%= "*" %>
         <% } %>
