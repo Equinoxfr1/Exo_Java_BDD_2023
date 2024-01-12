@@ -69,7 +69,7 @@ pluvieux</p>
 
 <p>Mon truc :</p>
 <% for (int i = 0 ; i < longueurChaine ; i++) { %>
-    <% if (chaine.substring(i,i) == "%20") { %>
+    <% if (Character.isWhitespace(chaine.charAt(i))) { %>
         </br>
     <% } else { %>        
         <%=chaine.charAt(i) %>
