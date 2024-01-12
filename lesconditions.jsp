@@ -48,7 +48,7 @@ Oui C est compris entre A et B</p>
 
 <% String val1 = request.getParameter("val1"); %>
 <% String val2 = request.getParameter("val2"); %>
-<% String val2 = request.getParameter("val3"); %>
+<% String val3 = request.getParameter("val3"); %>
 
 <% if (val1 != null && val2 != null && val3 != null) { %>
 
