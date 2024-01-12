@@ -75,7 +75,7 @@ Oui C est compris entre A et B</p>
 
 <%=val4 %>
 
-<% if ((intval4 % 2) == 0) { %>
+<% if ((intVal4 % 2) == 0) { %>
    <%="est un nombre pair" %>
 <% } else { %>
    <%="est un nombre impair" %>
