@@ -23,7 +23,7 @@
         <% for (int j = 1; j <= cpt; j++) { %>
            <%= "*" %>
         <% } %>
-        <%= System.lineSeparator() %>
+        <%= newline %>
     <% } %>
 </p>
 <p>Exemple si l'utilisateur saisie le valeur 5</p>
