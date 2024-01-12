@@ -116,6 +116,9 @@ xueivulp ares revih'l</p>
 <%=v %>
 
 <% } %>
+
+<p>Seulement 13 commits et 45 minutes écoulées, de mieux en mieux</p>
+
 <p><a href="index.html">Retour au sommaire</a></p>
 </body>
 </html>
