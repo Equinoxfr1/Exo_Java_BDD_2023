@@ -73,6 +73,7 @@ pluvieux</p>
         </br>
     <% } else { %>        
         <%=chaine.charAt(i) %>
+    <% } %>
 <% } %>
 
 <h2>Exercice 4 : Afficher une lettre sur deux</h2>
