@@ -61,7 +61,8 @@
 <h2>Exercice 5 : Triangle isocele</h2>
 <p>
 <% for (int i = 1; i <= cpt; i++) { %>
-        <% for (int j = 1; j <= cpt-i; ++j++) { %>
+        <% for (int j = 1; j <= cpt-i; j++) { %>
+            <% j++ %>
            <%="\u00A0" %>
         <% } %>
         <% for (int k = 1; k <= i; k++) { %>
