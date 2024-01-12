@@ -47,8 +47,8 @@ Ecrire un programme afin de faire la somme de toutes les valeurs saisie par l'ut
 
 <% int max = Integer.parseInt(tableauDeChiffres[0]); %>
 <% for (int i = 0 ; i < tableauDeChiffres.length ; i++) { %>
-    <% if (max < Integer.parseInt(tableauDeChiffres[i]) { %>
-        <% max = Integer.parseInt(tableauDeChiffres[i] ; %>
+    <% if (max < Integer.parseInt(tableauDeChiffres[i])) { %>
+        <% max = Integer.parseInt(tableauDeChiffres[i]) ; %>
     <% } %>
 <% } %>
 <%=max %>
@@ -58,8 +58,8 @@ Ecrire un programme afin de faire la somme de toutes les valeurs saisie par l'ut
 
 <% int min = Integer.parseInt(tableauDeChiffres[0]); %>
 <% for (int i = 0 ; i < tableauDeChiffres.length ; i++) { %>
-    <% if (min > Integer.parseInt(tableauDeChiffres[i]) { %>
-        <% min = Integer.parseInt(tableauDeChiffres[i] ; %>
+    <% if (min > Integer.parseInt(tableauDeChiffres[i])) { %>
+        <% min = Integer.parseInt(tableauDeChiffres[i]) ; %>
     <% } %>
 <% } %>
 <%=min %>
