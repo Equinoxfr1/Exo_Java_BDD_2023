@@ -56,11 +56,7 @@ Oui C est compris entre A et B</p>
 <% int intVal2 = Integer.parseInt(val2); %>
 <% int intVal3 = Integer.parseInt(val3); %>
 
-<% if (intVal3 <= intVal2 && intVal3 >= intVal1 ) { %>
-        <p>Oui C est compris entre A et B</p>
-<% } else { %>
-        <p>Non C n'est pas compris entre A et B.</p>
-<% } %>
+
 
 
 
