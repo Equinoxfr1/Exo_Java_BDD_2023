@@ -86,6 +86,8 @@ Oui C est compris entre A et B</p>
 
 <% } %>
 
+<p> Seulement 16 commits et 50 minutes pour cet exercice, à ce rythme là je serai développeur java dans 50 ans </p>
+
 <p><a href="index.html">Retour au sommaire</a></p>
 </body>
 </html>
