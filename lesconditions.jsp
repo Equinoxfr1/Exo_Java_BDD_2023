@@ -40,8 +40,10 @@ Oui C est compris entre A et B</p>
 
 <%="A =" %>
 <%=intVal1 %>
+</br>
 <%="B =" %>
 <%=intVal2 %>
+</br>
 <%="C =" %>
 <%=intVal3 %>
 
@@ -56,6 +58,33 @@ Oui C est compris entre A et B</p>
 
 <h2>Exercice 2 : Pair ou Impair ?</h2>
 <p>Écrivez un programme pour vérifier si un nombre est pair ou impair en utilisant une structure if</p>
+
+<form action="#" method="post">
+
+<p>Saisir la valeur 4 : <input type="text" id="inputValeur" name="val4">
+
+<p><input type="submit" value="AfficherEx2">
+
+</form>
+
+<% String val4 = request.getParameter("val4"); %>
+
+<% if (val4 != null) { %>
+
+<% int intVal4 = Integer.parseInt(val4); %>
+
+<%=val4 %>
+
+<% if ((val4 % 2) == 0) { %>
+   <%="est un nombre pair %>
+<% } else {
+   <%="est un nombre impair %>
+<% } %>
+
+
+
+
+<% } %>
 
 <p><a href="index.html">Retour au sommaire</a></p>
 </body>
