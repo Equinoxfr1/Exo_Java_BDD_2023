@@ -22,8 +22,7 @@
     <% for (int i = 1; i <= cpt; i++) { %>
         <% for (int j = 1; j <= cpt; j++) { %>
            <%= "*" %>
-        <% } %>
-        <%= "newline" %>
+        <% } = "%n" %>
     <% } %>
 </p>
 <p>Exemple si l'utilisateur saisie le valeur 5</p>
