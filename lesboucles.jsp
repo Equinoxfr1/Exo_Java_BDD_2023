@@ -86,7 +86,7 @@
         <% for (int jj = 1; jj <= cpt-ii; jj++) { %>
            <%="\u00A0\u00A0" %>
         <% } %>
-        <% for (int kk = 1; kk <= i; kk++) { %>
+        <% for (int kk = 1; kk <= ii; kk++) { %>
            <%="*" %>
         <% } %>
     </br>
