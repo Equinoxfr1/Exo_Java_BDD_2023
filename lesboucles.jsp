@@ -14,7 +14,7 @@
 
 
 <h2>Exercice 1 : Le carré d'étoiles</h2>
-<p>Ecrire le code afin de produire un triangle!!
+<p>Ecrire le code afin de produire un carré
 <% String valeur = request.getParameter("valeur"); %>
 <% if (valeur != null && !valeur.isEmpty()) { %>
 <%int cpt = Integer.parseInt(valeur); %>
@@ -23,7 +23,7 @@
         <% for (int j = 1; j <= cpt; j++) { %>
            <%= "*" %>
         <% } %>
-        <%= "\r\n" %>
+        <%= '\n' %>
     <% } %>
 </p>
 <p>Exemple si l'utilisateur saisie le valeur 5</p>
