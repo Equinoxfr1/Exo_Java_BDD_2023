@@ -40,6 +40,7 @@
     <% if (chaine.charAt(i) == 'e') { %>
         <% j++; %>
     <% } %>
+<% } %>
 <%=j %>
 
 <h2>Exercice 2 : Affichage verticale</h2>
