@@ -26,7 +26,15 @@
     </p>
 
 <h2>Exercice 1 : Le carré d'étoiles</h2>
-<p>1236948488</p>
+<p>Ecrire le code afin de produire un triangle!!
+<% String valeur = request.getParameter("valeur"); %>
+<% if (valeur != null && !valeur.isEmpty()) { %>
+<%int cpt = Integer.parseInt(valeur); %>
+    <p>
+    <% for (int i = 1; i <= cpt; i++) { %>
+       <%= "*" %>
+    <% } %>
+</p>
 <p>Exemple si l'utilisateur saisie le valeur 5</p>
 <p>*****</br>*****</br>*****</br>*****</br>*****</p>
 
