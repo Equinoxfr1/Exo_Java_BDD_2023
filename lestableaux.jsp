@@ -6,7 +6,7 @@
 <body bgcolor=white>
 <h1>Exercices sur les tableaux</h1>
 <form action="#" method="post">
-    <p>Saisir au minimu 3 chiffres à la suite, exemple : 6 78 15 <input type="text" id="inputValeur" name="chaine">
+    <p>Saisir au minimum 3 chiffres à la suite, exemple : 6 78 15 <input type="text" id="inputValeur" name="chaine">
     <p><input type="submit" value="Afficher">
 </form>
 <%-- Récupération des valeurs --%>
@@ -34,6 +34,13 @@
 <h2>Exercice 3 : La somme de toutes les valeurs</h2>
 <p>L'utilisateur peut à présent saisir autant de valeurs qu'il le souhaite dans champs de saisie.</br>
 Ecrire un programme afin de faire la somme de toutes les valeurs saisie par l'utilisateur</p>
+
+<% int somme = 0; %>
+<% for (int i = 0 ; i < tableauDeChiffres.lenght ; i++) { %>
+    <% somme = somme + Integer.parseInt(tableauDeChiffres[i]) %>
+<% } %>
+<%=somme %>
+
 
 <h2>Exercice 4 : La valeur maximum</h2>
 <p>Ecrire un programme pour afficher la valeur maximale saisie par l'utilisateur</p>
