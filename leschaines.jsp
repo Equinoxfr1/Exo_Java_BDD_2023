@@ -37,8 +37,8 @@
 
 <% int j = 0; %>
 <% for (int i = 0 ; i < longueurChaine ; i++) { %>
-    <% if (chaine.charAt(i) == 'e' { %>
-        <% j++ %>
+    <% if (chaine.charAt(i) == 'e') { %>
+        <% j++; %>
     <% } %>
 <%=j %>
 
