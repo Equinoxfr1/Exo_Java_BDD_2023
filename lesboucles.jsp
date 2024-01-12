@@ -107,5 +107,6 @@
 
 <% } %>
 <p><a href="index.html">Retour au sommaire</a></p>
+<p> 68 commits et j'ai mis 3h pour 1 exercice mais bon </p>
 </body>
 </html>
