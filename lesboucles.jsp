@@ -19,7 +19,7 @@
 <h2>Exercice 1 : Le carré d'étoiles</h2>
     <% for (int i = 1; i <= cpt; i++) { %>
         <% for (int j = 1; j <= cpt; j++) { %>
-           <%= "*" %>
+           <%="*" %>
         <% } %>
     </br>
     <% } %>
@@ -31,7 +31,7 @@
     <p>
     <% for (int i = 1; i <= cpt; i++) { %>
         <% for (int j = 1; j <= i; j++) { %>
-           <%= "*" %>
+           <%="*" %>
         <% } %>
     </br>
     <% } %>
@@ -42,7 +42,7 @@
 <p>
 <% for (int i = 1; i <= cpt; i++) { %>
         <% for (int j = 0; j <= cpt-i; j++) { %>
-           <%= "*" %>
+           <%="*" %>
         <% } %>
     </br>
     <% } %>
@@ -51,7 +51,7 @@
 <h2>Exercice 4 : Triangle rectangle 2</h2>
 <p><% for (int i = 1; i <= cpt; i++) { %>
         <% for (int j = 1; j <= cpt-i; j++) { %>
-           <%= "*" %>
+           <%="*" %>
         <% } %>
     </br>
     <% } %></p>
@@ -64,7 +64,7 @@
 <h2>Exercice 6 : Le demi losange</h2>
 <% for (int i = cpt; i <= 1; i--) { %>
         <% for (int j = 1; j <= i; j++) { %>
-           <%= "*" %>
+           <%= *" %>
         <% } %>
     </br>
     <% } %>
